@@ -1,0 +1,6 @@
+C:\Chandrasen\Git\MyGit\CSharpTraining\CSharpTraining\bin\Debug\CSharpTraining.exe.config
+C:\Chandrasen\Git\MyGit\CSharpTraining\CSharpTraining\bin\Debug\CSharpTraining.exe
+C:\Chandrasen\Git\MyGit\CSharpTraining\CSharpTraining\bin\Debug\CSharpTraining.pdb
+C:\Chandrasen\Git\MyGit\CSharpTraining\CSharpTraining\obj\Debug\CSharpTraining.csprojResolveAssemblyReference.cache
+C:\Chandrasen\Git\MyGit\CSharpTraining\CSharpTraining\obj\Debug\CSharpTraining.exe
+C:\Chandrasen\Git\MyGit\CSharpTraining\CSharpTraining\obj\Debug\CSharpTraining.pdb
