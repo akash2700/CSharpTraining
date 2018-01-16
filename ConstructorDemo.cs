@@ -48,6 +48,21 @@ namespace CSharpTraining
             ConstructorDemo cDemoParm = new ConstructorDemo("test");
             ConstructorDemo cDemoParm1 = new ConstructorDemo(1,2);
 
+            string s = "My Name";
+            DateTime date = DateTime.Now;
+            Console.WriteLine("DateTime demo: " + date);
+
+            date = date.AddDays(-7);
+            date = date.AddHours(2);
+            date = date.AddYears(2);
+
+            Console.WriteLine("DateTime addYear demo: " + date.Year);
+            Console.WriteLine("Is current year leap year " + DateTime.IsLeapYear(date.Year));
+            Console.WriteLine("DateTime add days demo: " + date.ToLongDateString());
+            Console.WriteLine("DateTime add days demo: " + date.ToShortDateString());
+            Console.WriteLine("DateTime add days demo: " + date.ToLongTimeString());
+            Console.WriteLine("DateTime add days demo: " + date.ToShortTimeString());
+
             Console.ReadKey();
         }
 
