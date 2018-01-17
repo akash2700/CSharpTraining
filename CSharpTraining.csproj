@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpTraining.AbstarctTest</StartupObject>
+    <StartupObject>CSharpTraining.InterfaceDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -50,9 +50,13 @@
     <Compile Include="AccessSpecifiers.cs" />
     <Compile Include="ArithmeticOps.cs" />
     <Compile Include="ConstructorDemo.cs" />
+    <Compile Include="DemoOfNew.cs" />
+    <Compile Include="InterfaceDemo.cs" />
     <Compile Include="Loops.cs" />
+    <Compile Include="MethodOverloading.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringBuilderDemo.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="SwitchCaseEx.cs" />
   </ItemGroup>
