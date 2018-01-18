@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpTraining.InterfaceDemo</StartupObject>
+    <StartupObject>CSharpTraining.ExceptionHandiling</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="ArithmeticOps.cs" />
     <Compile Include="ConstructorDemo.cs" />
     <Compile Include="DemoOfNew.cs" />
+    <Compile Include="ExceptionHandiling.cs" />
     <Compile Include="InterfaceDemo.cs" />
     <Compile Include="Loops.cs" />
     <Compile Include="MethodOverloading.cs" />
