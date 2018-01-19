@@ -10,8 +10,27 @@ namespace CSharpTraining
     {
         static void Main(string[] args)
         {
-            int a = 10;
-            int b;
+            //int a = 10;
+            //int b;
+
+            int a = 10, b = 0, c = 0;
+            Addition:
+            try
+            {
+                Console.Write("Enter a number");
+                a = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Enter a number");
+                b = Convert.ToInt32(Console.ReadLine());
+
+                c = a + b;
+                Console.WriteLine("Addition: " + c);
+            }
+            catch (FormatException ex)
+            {
+                Console.WriteLine("Enter only number");
+                goto Addition;
+            }
+
 
             Console.WriteLine("Enter one number");
 
@@ -24,7 +43,7 @@ namespace CSharpTraining
                     Console.WriteLine("Nested try block");
                     
                     b = Convert.ToInt32(s);
-                    int c = a / b;
+                    c = a / b;
                 }
                 catch(Exception ex)
                 {
