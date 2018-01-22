@@ -51,6 +51,8 @@
     <Compile Include="ArithmeticOps.cs" />
     <Compile Include="ArrayDemo.cs" />
     <Compile Include="ArrayListDemo.cs" />
+    <Compile Include="HashTableDemo.cs" />
+    <Compile Include="ListDemo.cs" />
     <Compile Include="ConstructorDemo.cs" />
     <Compile Include="DemoOfNew.cs" />
     <Compile Include="ExceptionHandiling.cs" />

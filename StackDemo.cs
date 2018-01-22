@@ -15,6 +15,7 @@ namespace CSharpTraining
             st.Push("one");
             st.Push(2);
             st.Push(3.0);
+            st.Push("test");
 
             foreach (var item in st)
             {
@@ -35,6 +36,15 @@ namespace CSharpTraining
                 Console.WriteLine(item);
             }
 
+
+            Stack<int> intStack = new Stack<int>();
+            intStack.Push(2);
+            intStack.Push(3);
+            foreach (var item in intStack)
+            {
+                Console.WriteLine(item);
+            }
+            intStack.Clear();
             Console.ReadKey();
 
         }

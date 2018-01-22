@@ -11,6 +11,8 @@ namespace CSharpTraining
     {
         static void Main()
         {
+            HashTableDemo demo = new HashTableDemo();
+            demo.HashDemo();
             Queue st = new Queue();
             st.Enqueue("one");
             st.Enqueue(2);
@@ -35,7 +37,32 @@ namespace CSharpTraining
                 Console.WriteLine(item);
             }
 
+
+            Queue<string> strQueue = new Queue<string>();
+            strQueue.Enqueue("one");
+            strQueue.Enqueue("two");
+            //ListDemo li = new ListDemo();
             Console.ReadKey();
+
+            int x = 10, y = 20;
+            var result = (x > y) ? "x is greater" : "y is greater";
+
+
+            var k = 10; // k type is Int here 
+            int l = 10; // above line and these line of code are equal
+            //l = "test"; // Errors out as l is int type. 
+            // Var dataType is defined by first assignemt operation and it stays for the entire scope
+
+            dynamic d = 1;
+            d = "one";
+
+
+            object aa = new object();
+            aa = "123";
+            aa = 123;
+            object bb = 234;
+            object emp = new Employee{ EmpID = 1, EmpName = "Test" };
+
         }
     }
 
