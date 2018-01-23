@@ -18,11 +18,11 @@ namespace CSharpTraining
             k++; // k = k+1;
             return k;
         }
-        static int OutTest(out int k)
+        static void OutTest(out int k)
         {
             k = 11;
             k++;
-            return k;
+           // return k;
         }
         static void Main()
         {
@@ -33,7 +33,7 @@ namespace CSharpTraining
             var j = RefTest(ref i);
             //RefTest(a); //As 'a' doesn't have any memory we can not pass by reference
 
-            var l = OutTest(out i);
+            OutTest(out i);
             OutTest(out a);
             Console.WriteLine("i value after method call is:" + i);
 
