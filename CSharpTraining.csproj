@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpTraining.QueueDemo</StartupObject>
+    <StartupObject>CSharpTraining.RefAndOutDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="ArithmeticOps.cs" />
     <Compile Include="ArrayDemo.cs" />
     <Compile Include="ArrayListDemo.cs" />
+    <Compile Include="ConstReadOnlyDemo.cs" />
     <Compile Include="HashTableDemo.cs" />
     <Compile Include="ListDemo.cs" />
     <Compile Include="ConstructorDemo.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueueDemo.cs" />
+    <Compile Include="RefAndOutDemo.cs" />
     <Compile Include="StackDemo.cs" />
     <Compile Include="StringBuilderDemo.cs" />
     <Compile Include="Student.cs" />
