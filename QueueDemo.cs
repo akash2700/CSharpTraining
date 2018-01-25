@@ -37,7 +37,6 @@ namespace CSharpTraining
                 Console.WriteLine(item);
             }
 
-
             Queue<string> strQueue = new Queue<string>();
             strQueue.Enqueue("one");
             strQueue.Enqueue("two");

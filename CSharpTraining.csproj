@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpTraining.RefAndOutDemo</StartupObject>
+    <StartupObject>CSharpTraining.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,7 +52,10 @@
     <Compile Include="ArrayDemo.cs" />
     <Compile Include="ArrayListDemo.cs" />
     <Compile Include="ConstReadOnlyDemo.cs" />
+    <Compile Include="FileStreamDemo.cs" />
     <Compile Include="HashTableDemo.cs" />
+    <Compile Include="IComparableDemo.cs" />
+    <Compile Include="IEquatableDemo.cs" />
     <Compile Include="ListDemo.cs" />
     <Compile Include="ConstructorDemo.cs" />
     <Compile Include="DemoOfNew.cs" />
