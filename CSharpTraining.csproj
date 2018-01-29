@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSharpTraining.Program</StartupObject>
+    <StartupObject>CSharpTraining.StructDemo</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,7 @@
     <Compile Include="ArrayDemo.cs" />
     <Compile Include="ArrayListDemo.cs" />
     <Compile Include="ConstReadOnlyDemo.cs" />
+    <Compile Include="ExtensionMethodsDemo.cs" />
     <Compile Include="FileStreamDemo.cs" />
     <Compile Include="HashTableDemo.cs" />
     <Compile Include="IComparableDemo.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="ExceptionHandiling.cs" />
     <Compile Include="InterfaceDemo.cs" />
     <Compile Include="Loops.cs" />
+    <Compile Include="LowCouplingDemo.cs" />
     <Compile Include="MethodOverloading.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -69,6 +71,7 @@
     <Compile Include="RefAndOutDemo.cs" />
     <Compile Include="StackDemo.cs" />
     <Compile Include="StringBuilderDemo.cs" />
+    <Compile Include="StructDemo.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="SwitchCaseEx.cs" />
   </ItemGroup>
